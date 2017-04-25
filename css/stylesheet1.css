@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Chivo|Montserrat');
+/*all three web pages will use this stylesheet*/
+html, body
+{
+    height: 100%;
+    margin: 0;
+}
+body
+{
+    background-color: #54C9F0;
+}
+/*the header contains a title and is using different font*/
+.header
+{
+    height: 6%;
+    text-align: center;
+    margin: auto;
+   font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+.side
+{
+    height: 80%;
+    width: 20%;
+    
+    float:left;
+    margin-top: 30px;
+    
+}
+/*resize the photos to take up more of the web browser*/
+.main
+{
+    height: 80%;
+    width: 80%;
+    float: left;
+}
+p
+{
+    font-family: 'Chivo', sans-serif;
+}
+#execorder
+    {
+        text-decoration: none;
+}
+#orders
+{
+    font-size: 13px;
+    margin-top: -3%;
+
+}
+.main1
+{
+    height: 60%;
+    width: 100%;
+}
+
+.main2
+{
+    height: 40%;
+    width: 80%;
+    margin-top: 220px;
+}
+/*the audio file might have an on/off switch*/
+#audio
+{
+    height: 10%;
+    width: 60%;
+    margin: auto;
+}
+#fix
+{
+    width:60%;
+    margin: auto;
+}
+
+/*the audio controls will probably not include a volume control*/
